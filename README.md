@@ -12,6 +12,11 @@ The last tile of the row is cut where needed, and the remaining part is used as 
 
 It is possible to override the first tile for each row with a custom tile (e.g. if the one proposed by the algorithm is too short).
 
+### Variation for floor tiles
+
+A simple variation for floor tiles, arranged as a grid, is possible using the GridInstallation class.
+In this case, it is possible to override also the width for each row.
+
 ## Limitations
 - only rectangular rooms are supported
 - the first tile is the one on the top left
